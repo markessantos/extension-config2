@@ -1,27 +1,16 @@
 {
-  "version": "2.0.0",
   "sites": {
     "motionarray.com": {
-      "name": "Motion Array",
       "email": "motion@wpspace.com.br",
-      "password": "T$n1SNeXuSHiUjY3wuND39",
-      "loginUrl": "https://motionarray.com/login",
-      "selectors": {
-        "email": "input[name='email']",
-        "password": "input[name='password']",
-        "submit": "button[type='submit']"
-      }
+      "password": "T$h1SNaXwSH!ujY3wuND39",
+      "emailSelectors": ["input[name='email']", "#email"],
+      "passwordSelectors": ["input[name='password']", "#password"]
     },
-    "envato.com": {
-      "name": "Envato Market",
-      "email": "envato@wpspace.com.br",
-      "password": "EnvatoPass123!",
-      "loginUrl": "https://account.envato.com/sign_in",
-      "selectors": {
-        "email": "input[name='username']",
-        "password": "input[name='password']",
-        "submit": ".js-submit-signin"
-      }
+    "elements.envato.com": {
+      "email": "seu-email-envato@exemplo.com",
+      "password": "sua-senha-envato",
+      "emailSelectors": ["input[name='email']"],
+      "passwordSelectors": ["input[name='password']"]
     }
   }
 }
