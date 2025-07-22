@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
   "credentials": {
-    "email": "bestm.ggm@gmail.com",
-    "password": "BestMG12!"
+    "email": "membrosrateiodominando@gmail.com",
+    "password": "rateiodominando#adquira#ja#pelowhatsapp#(66)999652493"
   },
   "sites": {
-    "epidemicsound.com": {
-      "name": "Epidemic Sound",
+    "motionelements.com": {
+      "name": "Motion elementos",
       "active": true,
       "selectors": {
         "email": "input[name='email'], input[type='email'], #email",
