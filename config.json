@@ -3,14 +3,18 @@
     "motionarray.com": {
       "email": "motion@wpspace.com.br",
       "password": "T$h1SNaXwSH!ujY3wuND39",
-      "emailSelectors": ["input[name='email']", "#email"],
-      "passwordSelectors": ["input[name='password']", "#password"]
-    },
-    "elements.envato.com": {
-      "email": "SEU-EMAIL-ENVATO@exemplo.com",
-      "password": "SUA-SENHA-ENVATO",
-      "emailSelectors": ["input[name='email']"],
-      "passwordSelectors": ["input[name='password']"]
+      "emailSelectors": [
+        "input[placeholder='Email']",
+        "input[name='email']",
+        "#email",
+        "input[type='email']"
+      ],
+      "passwordSelectors": [
+        "input[placeholder='Password']",
+        "input[name='password']",
+        "#password",
+        "input[type='password']"
+      ]
     }
   }
 }
