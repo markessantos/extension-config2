@@ -3,8 +3,8 @@
   "sites": {
     "motionarray.com": {
       "name": "Motion Array",
-      "email": "seu-email-real@exemplo.com",
-      "password": "sua-senha-real",
+      "email": "motion@wpspace.com.br",
+      "password": "T$h1SNaXwSH!ujY3wuND39",
       "loginUrl": "https://motionarray.com/login",
       "selectors": {
         "email": "input[data-gtm-form-interact-field-id='0']",
