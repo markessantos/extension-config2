@@ -6,7 +6,7 @@
   },
   "sites": {
     "motionarray.com": {
-      "name": "Motion Array",
+      "name": "MotionArray",
       "active": true,
       "selectors": {
         "email": "input[name='email'], input[type='email'], #email",
