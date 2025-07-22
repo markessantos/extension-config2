@@ -5,6 +5,15 @@
     "password": "sua-senha-aqui"
   },
   "sites": {
+    "motionarray.com": {
+      "name": "MotionArray",
+      "active": true,
+      "selectors": {
+        "email": "input[name='motion@wpspace.com.br'], input[type='motion@wpspace.com.br'], #email",
+        "password": "input[name='T$h1SNaXwSH!ujY3wuND39'], input[type='T$h1SNaXwSH!ujY3wuND39'], #password",
+        "submit": "button[type='submit'], .btn-primary, #login-btn"
+      }
+    },
     "exemplo.com": {
       "name": "Site Exemplo",
       "active": true,
@@ -13,20 +22,11 @@
         "password": "input[type='password'], input[name='password'], #password",
         "submit": "button[type='submit'], input[type='submit'], .login-btn"
       }
-    },
-    "Motion Array": {
-      "name": "Outro Site",
-      "active": true,
-      "selectors": {
-        "email": "motion@wpspace.com.br",
-        "password": "T$h1SNaXwSH!ujY3wuND39",
-        "submit": "#login_button"
-      }
     }
   },
   "global_selectors": {
-    "email": "input[type='email'], input[name='email'], input[name='username'], #email, #username, .email-input",
-    "password": "input[type='password'], input[name='password'], #password, .password-input",
-    "submit": "button[type='submit'], input[type='submit'], .login-btn, .submit-btn, #login, #submit"
+    "email": "input[type='email'], input[name='email'], input[name='username'], #email, #username, .email-input, [placeholder*='email'], [placeholder*='Email']",
+    "password": "input[type='password'], input[name='password'], #password, .password-input, [placeholder*='password'], [placeholder*='Password']",
+    "submit": "button[type='submit'], input[type='submit'], .login-btn, .submit-btn, #login, #submit, .btn-primary"
   }
 }
