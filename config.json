@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
   "credentials": {
-    "email": "motion@wpspace.com.br",
-    "password": "T$h1SNaXwSH!ujY3wuND39"
+    "email": "bestm.ggm@gmail.com",
+    "password": "BestMG12!"
   },
   "sites": {
     "motionarray.com": {
-      "name": "MotionArray",
+      "name": "Epidemic Sound",
       "active": true,
       "selectors": {
         "email": "input[name='email'], input[type='email'], #email",
