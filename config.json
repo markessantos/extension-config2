@@ -1,20 +1,10 @@
-{
-  "sites": {
-    "turboscribe.ai": {
-      "email": "jotapkrl67@gmail.com",
-      "password": "turboFBGAMINGGMAX",
-      "emailSelectors": [
-        "input[placeholder='Email']",
-        "input[name='email']",
-        "#email",
-        "input[type='email']"
-      ],
-      "passwordSelectors": [
-        "input[placeholder='Password']",
-        "input[name='password']",
-        "#password",
-        "input[type='password']"
-      ]
+"turboscribe.ai": {
+    "name": "Turbo Scribe",
+    "email": "jotapkrl67@gmail.com",
+    "password": "turboFBGAMINGGMAX",
+    "selectors": {
+        "email": "input[type='email']",
+        "password": "input[type='password']",
+        "submit": "button[type='submit']"
     }
-  }
 }
