@@ -5,7 +5,7 @@
     "password": "T$h1SNaXwSH!ujY3wuND39"
   },
   "sites": {
-    "https://motionarray.com/account/login/": {
+    "motionarray.com": {
       "name": "Motion Array",
       "active": true,
       "selectors": {
