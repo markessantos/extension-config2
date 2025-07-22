@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "credentials": {
+    "email": "seu-email@exemplo.com",
+    "password": "sua-senha-aqui"
+  },
+  "sites": {
+    "exemplo.com": {
+      "name": "Site Exemplo",
+      "active": true,
+      "selectors": {
+        "email": "input[type='email'], input[name='email'], #email",
+        "password": "input[type='password'], input[name='password'], #password",
+        "submit": "button[type='submit'], input[type='submit'], .login-btn"
+      }
+    },
+    "Motion Array": {
+      "name": "Outro Site",
+      "active": true,
+      "selectors": {
+        "email": "motion@wpspace.com.br",
+        "password": "T$h1SNaXwSH!ujY3wuND39",
+        "submit": "#login_button"
+      }
+    }
+  },
+  "global_selectors": {
+    "email": "input[type='email'], input[name='email'], input[name='username'], #email, #username, .email-input",
+    "password": "input[type='password'], input[name='password'], #password, .password-input",
+    "submit": "button[type='submit'], input[type='submit'], .login-btn, .submit-btn, #login, #submit"
+  }
+}
