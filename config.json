@@ -1,21 +1,27 @@
 {
-  "version": "1.0.0",
-  "credentials": {
-    "email": "motion@wpspace.com.br",
-    "password": "T$h1SNaXwSH!ujY3wuND39"
-  },
-  "motionarray.com": {
-    "github.com": {
-      "active": true,
+  "version": "2.0.0",
+  "sites": {
+    "motionarray.com": {
+      "name": "Motion Array",
+      "email": "motion@wpspace.com.br",
+      "password": "T$n1SNeXuSHiUjY3wuND39",
+      "loginUrl": "https://motionarray.com/login",
       "selectors": {
-        "email": "#login_field",
-        "password": "#password"
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "submit": "button[type='submit']"
+      }
+    },
+    "envato.com": {
+      "name": "Envato Market",
+      "email": "envato@wpspace.com.br",
+      "password": "EnvatoPass123!",
+      "loginUrl": "https://account.envato.com/sign_in",
+      "selectors": {
+        "email": "input[name='username']",
+        "password": "input[name='password']",
+        "submit": ".js-submit-signin"
       }
     }
-  },
-  "global_selectors": {
-    "email": "input[type='email'], input[name='email'], input[name='username'], #email, #username, #login_field",
-    "password": "input[type='password'], input[name='password'], #password",
-    "submit": "button[type='submit'], input[type='submit'], .login-btn, #login"
   }
 }
