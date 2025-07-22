@@ -7,8 +7,8 @@
       "passwordSelectors": ["input[name='password']", "#password"]
     },
     "elements.envato.com": {
-      "email": "seu-email-envato@exemplo.com",
-      "password": "sua-senha-envato",
+      "email": "SEU-EMAIL-ENVATO@exemplo.com",
+      "password": "SUA-SENHA-ENVATO",
       "emailSelectors": ["input[name='email']"],
       "passwordSelectors": ["input[name='password']"]
     }
