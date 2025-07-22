@@ -4,12 +4,23 @@
     "motionarray.com": {
       "name": "Motion Array",
       "email": "motion@wpspace.com.br",
-      "password": "T$h1SNaXwSH!ujY3wuND39",
+      "password": "T$n1SNeXuSHiUjY3wuND39",
       "loginUrl": "https://motionarray.com/login",
       "selectors": {
-        "email": "input[data-gtm-form-interact-field-id='0']",
-        "password": "input[data-gtm-form-interact-field-id='1']",
-        "submit": "button[data-v-d846300c][type='submit']"
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "submit": "button[type='submit']"
+      }
+    },
+    "envato.com": {
+      "name": "Envato Market",
+      "email": "envato@wpspace.com.br",
+      "password": "EnvatoPass123!",
+      "loginUrl": "https://account.envato.com/sign_in",
+      "selectors": {
+        "email": "input[name='username']",
+        "password": "input[name='password']",
+        "submit": ".js-submit-signin"
       }
     }
   }
