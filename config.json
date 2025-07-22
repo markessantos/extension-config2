@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
   "credentials": {
-    "email": "membrosrateiodominando@gmail.com",
-    "password": "rateiodominando#adquira#ja#pelowhatsapp#(66)999652493"
+    "email": "motion@wpspace.com.br",
+    "password": "T$h1SNaXwSH!ujY3wuND39"
   },
   "sites": {
-    "motionelements.com": {
-      "name": "Motion elementos",
+    "https://motionarray.com/account/login/": {
+      "name": "Motion Array",
       "active": true,
       "selectors": {
         "email": "input[name='email'], input[type='email'], #email",
