@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
   "credentials": {
-    "email": "seu-email@exemplo.com",
-    "password": "sua-senha-aqui"
+    "email": "motion@wpspace.com.br",
+    "password": "T$h1SNaXwSH!ujY3wuND39"
   },
   "sites": {
     "motionarray.com": {
       "name": "MotionArray",
       "active": true,
       "selectors": {
-        "email": "input[name='motion@wpspace.com.br'], input[type='motion@wpspace.com.br'], #email",
-        "password": "input[name='T$h1SNaXwSH!ujY3wuND39'], input[type='T$h1SNaXwSH!ujY3wuND39'], #password",
+        "email": "input[name='email'], input[type='email'], #email",
+        "password": "input[name='password'], input[type='password'], #password",
         "submit": "button[type='submit'], .btn-primary, #login-btn"
       }
     },
