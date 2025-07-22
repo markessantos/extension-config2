@@ -1,8 +1,8 @@
 {
   "sites": {
-    "motionarray.com": {
-      "email": "motion@wpspace.com.br",
-      "password": "T$h1SNaXwSH!ujY3wuND39",
+    "turboscribe.ai": {
+      "email": "jotapkrl67@gmail.com",
+      "password": "turboFBGAMINGGMAX",
       "emailSelectors": [
         "input[placeholder='Email']",
         "input[name='email']",
