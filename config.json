@@ -1,10 +1,27 @@
-"turboscribe.ai": {
-    "name": "Turbo Scribe",
-    "email": "jotapkrl67@gmail.com",
-    "password": "turboFBGAMINGGMAX",
-    "selectors": {
-        "email": "input[type='email']",
-        "password": "input[type='password']",
+{
+  "version": "2.0.0",
+  "sites": {
+    "turboscribe.ai": {
+      "name": "Markes Santos",
+      "email": "jotapkrl67@gmail.com",
+      "password": "turboFBGAMINGGMAX",
+      "loginUrl": "https://motionarray.com/login",
+      "selectors": {
+        "email": "input[name='email']",
+        "password": "input[name='password']",
         "submit": "button[type='submit']"
+      }
+    },
+    "envato.com": {
+      "name": "Envato Market",
+      "email": "envato@wpspace.com.br",
+      "password": "EnvatoPass123!",
+      "loginUrl": "https://account.envato.com/sign_in",
+      "selectors": {
+        "email": "input[name='username']",
+        "password": "input[name='password']",
+        "submit": ".js-submit-signin"
+      }
     }
+  }
 }
