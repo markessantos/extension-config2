@@ -1,26 +1,33 @@
 {
-  "version": "2.0.0",
   "sites": {
     "turboscribe.ai": {
-      "name": "Markes Santos",
+      "name": "TurboScribe",
       "email": "jotapkrl67@gmail.com",
       "password": "turboFBGAMINGGMAX",
-      "loginUrl": "https://motionarray.com/login",
       "selectors": {
-        "email": "input[name='email']",
-        "password": "input[name='password']",
+        "email": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+        "password": "input[type='password'], input[name='password'], input[placeholder*='password' i]",
+        "submit": "button[type='submit'], input[type='submit'], button:contains('Sign in'), button:contains('Login')"
+      }
+    },
+    "motionarray.com": {
+      "name": "Motion Array",
+      "email": "seu-email-real@exemplo.com",
+      "password": "sua-senha-real",
+      "selectors": {
+        "email": "input[placeholder='Email']",
+        "password": "input[placeholder='Password']",
         "submit": "button[type='submit']"
       }
     },
-    "envato.com": {
-      "name": "Envato Market",
-      "email": "envato@wpspace.com.br",
-      "password": "EnvatoPass123!",
-      "loginUrl": "https://account.envato.com/sign_in",
+    "brasil.uaitool.in": {
+      "name": "Brasil UaiTool",
+      "email": "seu-email-real@exemplo.com",
+      "password": "sua-senha-real",
       "selectors": {
-        "email": "input[name='username']",
-        "password": "input[name='password']",
-        "submit": ".js-submit-signin"
+        "email": "input[type='email'], input[name='email'], input[placeholder*='email' i]",
+        "password": "input[type='password'], input[name='password'], input[placeholder*='senha' i]",
+        "submit": "button[type='submit'], input[type='submit'], button:contains('Entrar')"
       }
     }
   }
